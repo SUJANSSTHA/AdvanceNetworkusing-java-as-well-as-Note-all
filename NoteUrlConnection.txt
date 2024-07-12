@@ -1,0 +1,7 @@
+Steps to use URLConnection calss in java.
+1. Create a URL object: Create a URL object by providing the URL OF THE RESOURCE YOU WANT TO Connect to.
+2. Open Connection: Open a connection to the URL using the 'openConnection()' method of the URL Object. This method returns an instance of URLConnection.
+3. Configure Connection: Set any necessary request properties, such as headers or timeouts, using methods like 'setRequestProperty()'
+4. Retrieve Data: Open an input stream from the URLConnection to read the data from the remote resource.
+5. Read Data: Read the data from the input stream using standard Java I/O operations.
+6. Close resource: Close the input stream and release any resource associated with the URLConnection.
