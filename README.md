@@ -1,5 +1,5 @@
 There you Find all the Advance Java Note.
-Testing Reachability
+**Testing Reachability**
 ==>  The InetAddress class has two isReachable() methods that test whether a particular node is reachability form the current hsot (i.e., whether a network connection can be made).
 
 -->Connections can be blocked for many reasons, including firewalls, proxy servers, misbehaving routers, and broken cables, or simply because the remote host is not turned on when you try to connect.
