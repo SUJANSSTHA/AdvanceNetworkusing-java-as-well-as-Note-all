@@ -30,9 +30,22 @@ NOTE: if SO_TIMEOUT is 0, accept() will never time out. The default is to never 
 
 
 SO_RESUSEADDE
+
+
 iT DETERMINES whether a new socket will be allowed to bind to a previously used port while there might still be data traversing the network addressed to the old socket.
 
 As you probibly expect, there are two methods to get and set this option:
 
 public boolean getReuseAddress()thorws SocketExecption
 public void setReuseAddress(boolean on )throws SocketExecption.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+IMPORTANT FOR MCQ
+SECURE SOCKET PACKAGE
+1. JAVAX.NET.SSL
+2. JAVA.NET
+3. JAVA.SECURITY.CERT
+4. CON.SUN.NET.SSL
+   
