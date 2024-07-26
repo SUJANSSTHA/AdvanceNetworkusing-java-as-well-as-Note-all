@@ -53,13 +53,13 @@ SECURE SOCKET PACKAGE
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 The SSLServerSocket class has the same three methods for determining which cipher suites are supported and enabled as SSLSocket does :
 
-(a) public abstract String[] getSupportedCipherSuites() 
-- tells which combination of algorithms is available on a given socket
+(a) public abstract String[] getSupportedCipherSuites()
+    
+    - tells which combination of algorithms is available on a given socket
   
 (b) public abstract String[] getEnabledCipherSuites()
 
-
-   - tells which suites this socket is willing to use
+    - tells which suites this socket is willing to use
      
 (c) public abstract void setEnabled CipherSuites (String[] suites
 
