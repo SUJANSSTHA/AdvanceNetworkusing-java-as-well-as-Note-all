@@ -55,8 +55,8 @@ The SSLServerSocket class has the same three methods for determining which ciphe
 
 (a) public abstract String[] getSupportedCipherSuites() 
 - tells which combination of algorithms is available on a given socket
-  (b) public abstract String[] getEnabledCipherSuites()
+(b) public abstract String[] getEnabledCipherSuites()
    - tells which suites this socket is willing to use
-     (c) public abstract void setEnabled CipherSuites (String[] suites)
+(c) public abstract void setEnabled CipherSuites (String[] suites)
       - change the suites the client attempts to use
    
