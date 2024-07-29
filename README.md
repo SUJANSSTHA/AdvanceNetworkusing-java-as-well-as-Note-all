@@ -48,4 +48,20 @@ SECURE SOCKET PACKAGE
 2. JAVA.NET
 3. JAVA.SECURITY.CERT
 4. CON.SUN.NET.SSL
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The SSLServerSocket class has the same three methods for determining which cipher suites are supported and enabled as SSLSocket does :
+
+(a) public abstract String[] getSupportedCipherSuites()
+    
+    - tells which combination of algorithms is available on a given socket
+  
+(b) public abstract String[] getEnabledCipherSuites()
+
+    - tells which suites this socket is willing to use
+     
+(c) public abstract void setEnabled CipherSuites (String[] suites
+
+      - change the suites the client attempts to use
    
